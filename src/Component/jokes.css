@@ -1,0 +1,21 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.joke{
+    background-color: white;
+    width: 100vh;
+    height: 200px;
+}
+.joke-gen{
+    text-align: center;
+}
+.btn{
+    background-color: blue;
+    height: 50px;
+    color: white;
+    border: none;
+}
