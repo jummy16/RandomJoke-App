@@ -33,12 +33,14 @@ const Jokes = () => {
     <div className='joke'>
         <div><h2 className='joke-gen'>Jokes Generator</h2></div>
         {
-            isLoading ? (<h1>...loading</h1>): (<><p>joke id:{joke.id}</p>
-        <p>joke value{joke.value}</p>
+            isLoading ? (<h1>...loading</h1>): (<><h4>Joke ID:  {joke.id}</h4>
+        <h4>Joke Value:  {joke.value}</h4>
             </>)
         }
-      
+      <div>
         <button className='btn' onClick={HandleGenerate}>Generate Joke</button>
+      </div>
+       
     </div>
     
   )

@@ -9,13 +9,17 @@ body{
     background-color: white;
     width: 100vh;
     height: 200px;
+    position: relative;
 }
 .joke-gen{
     text-align: center;
 }
 .btn{
-    background-color: blue;
+    background-color: rgb(189, 68, 68);
     height: 50px;
     color: white;
     border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
